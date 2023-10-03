@@ -1,6 +1,7 @@
 import React from 'react'
 // BsArrowRight
 import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -17,7 +18,9 @@ const Home = () => {
                     <h1 className="text-7xl font-bold">COX'S BAZAR</h1>
                     <p className='w-[550px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste totam aut error soluta nulla maxime est, alias architecto illo aspernatur optio? Doloremque eveniet assumenda repellendus quam molestiae quibusdam! Aliquid, ab?</p>
                 </div>
-                <button className='btn bg-yellow-500 capitalize px-10'>Booking <span className='font-bold text-xl'><BsArrowRight /></span></button>
+                <Link to='/booking'>
+                    <button className='btn bg-yellow-500 capitalize px-10'>Booking <span className='font-bold text-xl'><BsArrowRight /></span></button>
+                </Link>
             </div>
 
             <div className=' col-span-2'>

@@ -9,8 +9,8 @@ export const Navbar = () => {
             <div className='flex justify-between items-center py-8'>
                 <img src={logo} alt="" className='w-40 h-14 bg-white' />
                 <div className='relative'>
-                    <BsSearch className='absolute bottom-2 left-3 text-white' />
-                    <input type="text" placeholder="Type here" className="input placeholder:text-white text-white border-white bg-transparent pl-10 input-bordered input-sm w-[350px] max-w-xs" />
+                    <BsSearch className='absolute bottom-3 left-3 text-white' />
+                    <input type="text" placeholder="Type here" className="input h-11 text-lg placeholder:text-white text-white border-white bg-transparent pl-10 input-bordered input-sm w-[350px] max-w-xs" />
                 </div>
                 <div className='flex justify-between items-center gap-20 text-white'>
                     <Link>Home</Link>
