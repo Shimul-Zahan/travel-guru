@@ -3,16 +3,13 @@ import logo from '../../../public/travel-guru-resources/logo.png'
 import { BsSearch } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 
-export const Navbar = () => {
+const NavbarWithBlackText = () => {
     return (
         <div className='container mx-auto text-lg font-medium '>
             <div className='flex justify-between items-center py-8'>
                 <img src={logo} alt="" className='w-40 h-14' />
-                <div className='relative'>
-                    <BsSearch className='absolute bottom-3 left-3 text-white' />
-                    <input type="text" placeholder="Type here" className="input h-11 text-lg placeholder:text-white text-white border-white bg-transparent pl-10 input-bordered input-sm w-[350px] max-w-xs" />
-                </div>
-                <div className='flex justify-between items-center gap-20 text-white'>
+                <div className='w-80'></div>
+                <div className='flex justify-between items-center gap-20 text-black'>
                     <Link>Home</Link>
                     <Link>Destination</Link>
                     <Link>Blog</Link>
@@ -25,3 +22,5 @@ export const Navbar = () => {
         </div>
     )
 }
+
+export default NavbarWithBlackText
