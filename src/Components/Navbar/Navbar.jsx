@@ -30,7 +30,7 @@ export const Navbar = () => {
                     <Link>Blog</Link>
                     <Link>Contact</Link>
                     {
-                        user && <button className="btn btn-outline text-white">{user.displayName}</button>
+                        user && <button className="btn btn-outline text-white capitalize">{user.displayName}</button>
                     }
                 </div>
                 {

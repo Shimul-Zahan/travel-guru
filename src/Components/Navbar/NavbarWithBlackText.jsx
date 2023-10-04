@@ -26,6 +26,9 @@ const NavbarWithBlackText = () => {
                     <Link>Destination</Link>
                     <Link>Blog</Link>
                     <Link>Contact</Link>
+                    {
+                        user && <button className="btn btn-outline text-black capitalize">{user.displayName}</button>
+                    }
                 </div>
                 {
                     user ? <button onClick={logOut} className='bg-yellow-500 btn px-10 capitalize font-normal text-lg text-black'>Logout</button> :
