@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import GoogleMapReact from 'google-map-react';
+import { MyContext } from "../../Context/ContextAuth";
 // import MAP_API_KEY from "../../MAP_API_KEY";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
+
 export default function SimpleMap() {
+
+    const { places } = useContext(MyContext);
+
     const defaultProps = {
+
         center: {
             lat: 21.4512,
             lng: 92.0085

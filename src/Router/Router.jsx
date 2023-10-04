@@ -8,6 +8,7 @@ import Booking from '../Components/Booking/Booking';
 import LOgin from '../Components/Login/LOgin';
 import Registration from '../Components/Registration/Registration';
 import Hotels from '../Hotels/Hotels';
+import PrivateRoute from '../Private/PrivateRoute';
 
 const router = createBrowserRouter([
     {
@@ -32,7 +33,10 @@ const router = createBrowserRouter([
             },
             {
                 path: '/hotels',
-                element: <Hotels />
+                element: <PrivateRoute>
+                            <Hotels />
+                        </PrivateRoute>,
+                loader: () => fetch('/hotel.json'),
             },
         ]
     }

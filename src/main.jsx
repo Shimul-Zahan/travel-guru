@@ -6,9 +6,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import router from './Router/Router.jsx';
+import ContextAuth from './Context/ContextAuth.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <ContextAuth>
+      <RouterProvider router={router} />
+    </ContextAuth>
   </React.StrictMode>,
 )

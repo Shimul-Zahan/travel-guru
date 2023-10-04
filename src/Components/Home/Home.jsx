@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 // BsArrowRight
 import { BsArrowRight } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { Navbar } from '../Navbar/Navbar';
+import { MyContext } from '../../Context/ContextAuth';
 
 
 const Home = () => {
+
+    const { cardClicked } = useContext(MyContext);
+
     return (
         <div>
             <Navbar />
@@ -29,22 +33,28 @@ const Home = () => {
                 <div className=' col-span-2'>
                     <div className="carousel carousel-center rounded-box space-x-5">
                         <div className="carousel-item border-yellow-400 rounded-xl border-2 relative">
-                            <Link to='/hotels'>
+                            <Link to='/hotels' onClick={() => cardClicked("Cox's Bazar")}>
                                 <img src="/travel-guru-resources/images/Rectangle 1.png" alt="Pizza" className='h-full w-64 rounded-xl opacity-50' />
                             </Link>
                             <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">COX'S BAZAR</h1>
                         </div>
                         <div className="carousel-item border-yellow-400 rounded-xl border-2 relative">
-                            <img src="/travel-guru-resources/images/Sreemongol.png" alt="Pizza" className='h-96 w-64 rounded-xl opacity-60' />
-                            <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">SREEMANGAL</h1>
+                            <Link to='/hotels' onClick={() => cardClicked("Srimangal")}>
+                                <img src="/travel-guru-resources/images/Sreemongol.png" alt="Pizza" className='h-96 w-64 rounded-xl opacity-60' />
+                                <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">SREEMANGAL</h1>
+                            </Link>
                         </div>
                         <div className="carousel-item border-yellow-400 rounded-xl border-2 relative">
-                            <img src="/travel-guru-resources/images/sundorbon.png" alt="Pizza" className='h-96 w-64 rounded-xl opacity-60' />
-                            <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">SUNDARBANS</h1>
+                            <Link to='/hotels' onClick={() => cardClicked("Sundarbans")}>
+                                <img src="/travel-guru-resources/images/sundorbon.png" alt="Pizza" className='h-96 w-64 rounded-xl opacity-60' />
+                                <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">SUNDARBANS</h1>
+                            </Link>
                         </div>
                         <div className="carousel-item border-yellow-400 rounded-xl border-2 relative">
-                            <img src="/travel-guru-resources/images/Sajek.png" alt="Pizza" className='h-96 w-64 rounded-xl opacity-60' />
-                            <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">SAJEK</h1>
+                            <Link to='/hotels' onClick={() => cardClicked("Sajek")}>
+                                <img src="/travel-guru-resources/images/Sajek.png" alt="Pizza" className='h-96 w-64 rounded-xl opacity-60' />
+                                <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">SAJEK</h1>
+                            </Link>
                         </div>
                     </div>
                 </div>

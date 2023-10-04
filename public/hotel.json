@@ -1,0 +1,375 @@
+[
+    {
+        "id": "hotel1",
+        "name": "Luxury Seaside Resort",
+        "imageURL": "https://example.com/luxury_seaside_resort.jpg",
+        "price": "$300 per night",
+        "services": [
+            "Free Wi-Fi",
+            "Private Beach Access",
+            "Spa",
+            "Fine Dining"
+        ],
+        "place": "Cox's Bazar",
+        "rating": 4.8,
+        "rooms": [
+            {
+                "type": "Deluxe Room",
+                "price": "$300 per night"
+            },
+            {
+                "type": "Executive Suite",
+                "price": "$500 per night"
+            }
+        ],
+        "special_offers": [
+            "Complimentary spa treatment",
+            "10% off on extended stays"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@luxuryseasideresort.com"
+        }
+    },
+    {
+        "id": "hotel2",
+        "name": "Mangrove Eco Retreat",
+        "imageURL": "https://example.com/mangrove_eco_retreat.jpg",
+        "price": "$150 per night",
+        "services": [
+            "Nature Walks",
+            "Boat Trips",
+            "Organic Dining"
+        ],
+        "place": "Sundarbans",
+        "rating": 4.2,
+        "rooms": [
+            {
+                "type": "Riverside Cabin",
+                "price": "$150 per night"
+            },
+            {
+                "type": "Family Treehouse",
+                "price": "$200 per night"
+            }
+        ],
+        "special_offers": [
+            "Free guided nature walk",
+            "Kids stay free"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@mangroveecoretreat.com"
+        }
+    },
+    {
+        "id": "hotel3",
+        "name": "Mountain Bliss Resort",
+        "imageURL": "https://example.com/mountain_bliss_resort.jpg",
+        "price": "$250 per night",
+        "services": [
+            "Hiking Tours",
+            "Mountain View Rooms",
+            "Café"
+        ],
+        "place": "Sajek",
+        "rating": 4.5,
+        "rooms": [
+            {
+                "type": "Luxury Chalet",
+                "price": "$250 per night"
+            },
+            {
+                "type": "Adventure Suite",
+                "price": "$300 per night"
+            }
+        ],
+        "special_offers": [
+            "Free guided hiking tour",
+            "15% off on café purchases"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@mountainblissresort.com"
+        }
+    },
+    {
+        "id": "hotel4",
+        "name": "Tea Plantation Retreat",
+        "imageURL": "https://example.com/tea_plantation_retreat.jpg",
+        "price": "$120 per night",
+        "services": [
+            "Tea Tasting",
+            "Bird Watching",
+            "Cottage Stay"
+        ],
+        "place": "Srimangal",
+        "rating": 4.0,
+        "rooms": [
+            {
+                "type": "Classic Cottage",
+                "price": "$120 per night"
+            },
+            {
+                "type": "Premium Suite",
+                "price": "$150 per night"
+            }
+        ],
+        "special_offers": [
+            "Complimentary tea tasting session",
+            "Early bird discount"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@teaplantationretreat.com"
+        }
+    },
+    {
+        "id": "hotel5",
+        "name": "Sunset Horizon Inn",
+        "imageURL": "https://example.com/sunset_horizon_inn.jpg",
+        "price": "$80 per night",
+        "services": [
+            "City View Rooms",
+            "Rooftop Bar",
+            "Free Breakfast"
+        ],
+        "place": "Cox's Bazar",
+        "rating": 3.9,
+        "rooms": [
+            {
+                "type": "Standard Room",
+                "price": "$80 per night"
+            },
+            {
+                "type": "Family Suite",
+                "price": "$120 per night"
+            }
+        ],
+        "special_offers": [
+            "Complimentary breakfast for all guests",
+            "10% off on bar purchases"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@sunsethorizoninn.com"
+        }
+    },
+    {
+        "id": "hotel6",
+        "name": "Riverfront Serenity Lodge",
+        "imageURL": "https://example.com/riverfront_serenity_lodge.jpg",
+        "price": "$90 per night",
+        "services": [
+            "River View Rooms",
+            "Bonfire Nights",
+            "Fishing"
+        ],
+        "place": "Sundarbans",
+        "rating": 3.7,
+        "rooms": [
+            {
+                "type": "Riverfront Cabin",
+                "price": "$90 per night"
+            },
+            {
+                "type": "Cozy Bungalow",
+                "price": "$130 per night"
+            }
+        ],
+        "special_offers": [
+            "Free fishing gear rental",
+            "Bonfire nights every weekend"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@riverfrontserenitylodge.com"
+        }
+    },
+    {
+        "id": "hotel7",
+        "name": "Cloud Nine Boutique Hotel",
+        "imageURL": "https://example.com/cloud_nine_boutique_hotel.jpg",
+        "price": "$200 per night",
+        "services": [
+            "City Center Location",
+            "Rooftop Pool",
+            "Fine Dining"
+        ],
+        "place": "Sajek",
+        "rating": 4.6,
+        "rooms": [
+            {
+                "type": "Deluxe Room",
+                "price": "$200 per night"
+            },
+            {
+                "type": "Sky Suite",
+                "price": "$300 per night"
+            }
+        ],
+        "special_offers": [
+            "Complimentary city tour",
+            "20% off on fine dining"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@cloudnineboutiquehotel.com"
+        }
+    },
+    {
+        "id": "hotel8",
+        "name": "Green Valley Tea House",
+        "imageURL": "https://example.com/green_valley_tea_house.jpg",
+        "price": "$70 per night",
+        "services": [
+            "Tea Garden Views",
+            "Traditional Cuisine",
+            "Café"
+        ],
+        "place": "Srimangal",
+        "rating": 4.2,
+        "rooms": [
+            {
+                "type": "Tea Garden Cottage",
+                "price": "$70 per night"
+            },
+            {
+                "type": "Family Tea House",
+                "price": "$100 per night"
+            }
+        ],
+        "special_offers": [
+            "Guided tea garden tour",
+            "Free traditional dinner"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@greenvalleyteahouse.com"
+        }
+    },
+    {
+        "id": "hotel9",
+        "name": "Golden Sands Beach Resort",
+        "imageURL": "https://example.com/golden_sands_beach_resort.jpg",
+        "price": "$180 per night",
+        "services": [
+            "Private Beachfront",
+            "Water Sports",
+            "Luxury Suites"
+        ],
+        "place": "Cox's Bazar",
+        "rating": 4.4,
+        "rooms": [
+            {
+                "type": "Beachfront Suite",
+                "price": "$180 per night"
+            },
+            {
+                "type": "Royal Villa",
+                "price": "$300 per night"
+            }
+        ],
+        "special_offers": [
+            "Free water sports session",
+            "VIP access to beach events"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@goldensandsbeachresort.com"
+        }
+    },
+    {
+        "id": "hotel10",
+        "name": "Wilderness Explorer Lodge",
+        "imageURL": "https://example.com/wilderness_explorer_lodge.jpg",
+        "price": "$130 per night",
+        "services": [
+            "Jungle Safaris",
+            "Wildlife Viewing",
+            "Adventure Tents"
+        ],
+        "place": "Sundarbans",
+        "rating": 3.9,
+        "rooms": [
+            {
+                "type": "Jungle View Tent",
+                "price": "$130 per night"
+            },
+            {
+                "type": "Explorer Cabin",
+                "price": "$180 per night"
+            }
+        ],
+        "special_offers": [
+            "Complimentary jungle safari",
+            "10% off on extended stays"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@wildernessexplorerlodge.com"
+        }
+    },
+    {
+        "id": "hotel11",
+        "name": "Valley Vista Retreat",
+        "imageURL": "https://example.com/valley_vista_retreat.jpg",
+        "price": "$160 per night",
+        "services": [
+            "Mountain View Rooms",
+            "Café",
+            "Hiking Trails"
+        ],
+        "place": "Sajek",
+        "rating": 4.3,
+        "rooms": [
+            {
+                "type": "Valley View Room",
+                "price": "$160 per night"
+            },
+            {
+                "type": "Mountain Suite",
+                "price": "$220 per night"
+            }
+        ],
+        "special_offers": [
+            "Free guided hiking tour",
+            "15% off on café purchases"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@valleyvistaretreat.com"
+        }
+    },
+    {
+        "id": "hotel12",
+        "name": "Tranquil Tea Gardens Cottage",
+        "imageURL": "https://example.com/tranquil_tea_gardens_cottage.jpg",
+        "price": "$110 per night",
+        "services": [
+            "Tea Garden Views",
+            "Bicycle Rentals",
+            "Library"
+        ],
+        "place": "Srimangal",
+        "rating": 4.0,
+        "rooms": [
+            {
+                "type": "Tranquil Cottage",
+                "price": "$110 per night"
+            },
+            {
+                "type": "Family Retreat",
+                "price": "$160 per night"
+            }
+        ],
+        "special_offers": [
+            "Free bicycle rental for guests",
+            "Library access for book lovers"
+        ],
+        "contact": {
+            "phone": "+880-1XXX-XXXXXX",
+            "email": "info@tranquilteagardenscottage.com"
+        }
+    }
+]

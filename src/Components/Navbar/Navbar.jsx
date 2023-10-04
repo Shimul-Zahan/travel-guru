@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import logo from '../../../public/travel-guru-resources/logo.png'
 import { BsSearch } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
+import { MyContext } from '../../Context/ContextAuth';
 
 export const Navbar = () => {
+
+    const { user, logOutUser } = useContext(MyContext);
+
+    const logOut = () => {
+        logOutUser().then(res => {
+            console.log('Successfully Logout')
+        }).catch(err => {
+            console.log(err);
+        })
+    }
+
     return (
         <div className='container mx-auto text-lg font-medium '>
             <div className='flex justify-between items-center py-8'>
@@ -17,10 +29,16 @@ export const Navbar = () => {
                     <Link>Destination</Link>
                     <Link>Blog</Link>
                     <Link>Contact</Link>
+                    {
+                        user && <button className="btn btn-outline text-white">{user.displayName}</button>
+                    }
                 </div>
-                <Link to='/login'>
-                    <button className='bg-yellow-500 btn px-10 capitalize font-normal text-lg text-black'>Login</button>
-                </Link>
+                {
+                    user ? <button onClick={logOut} className='bg-yellow-500 btn px-10 capitalize font-normal text-lg text-black'>Logout</button> :
+                        <Link to='/login'>
+                        <button className='bg-yellow-500 btn px-10 capitalize font-normal text-lg text-black'>Login</button>
+                    </Link> 
+                }
             </div>
         </div>
     )
