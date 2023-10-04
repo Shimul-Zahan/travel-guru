@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import NavbarWithBlackText from '../Navbar/NavbarWithBlackText'
-import { Link } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillGoogleCircle } from 'react-icons/ai';
 import { MyContext } from '../../Context/ContextAuth';
@@ -8,6 +8,8 @@ import { MyContext } from '../../Context/ContextAuth';
 const LOgin = () => {
 
     const { logInUser, googleLogIn } = useContext(MyContext);
+    const location = useLocation();
+    const navigate = useNavigate();
 
     const handleLogin = (e) => {
         e.preventDefault();
@@ -15,6 +17,10 @@ const LOgin = () => {
         const password = e.target.password.value;
         logInUser(email, password).then(res => {
             // console.log(res.user)
+            e.target.reset();
+            {
+                location?.state ? navigate(location.state) : navigate('/');
+            }
         }).catch(err => {
             console.log(err)
         })
@@ -23,6 +29,9 @@ const LOgin = () => {
     const googleSignIn = () => {
         googleLogIn().then(res => {
             // console.log(res.user);
+            {
+                location?.state ? navigate(location.state) : navigate('/');
+            }
         }).catch(err => {
             console.log(err);
         })
