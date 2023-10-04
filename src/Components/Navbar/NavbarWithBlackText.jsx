@@ -10,7 +10,7 @@ const NavbarWithBlackText = () => {
                 <img src={logo} alt="" className='w-40 h-14' />
                 <div className='w-80'></div>
                 <div className='flex justify-between items-center gap-20 text-black'>
-                    <Link>Home</Link>
+                    <Link to='/'>Home</Link>
                     <Link>Destination</Link>
                     <Link>Blog</Link>
                     <Link>Contact</Link>

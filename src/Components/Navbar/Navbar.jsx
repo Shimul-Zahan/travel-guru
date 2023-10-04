@@ -13,7 +13,7 @@ export const Navbar = () => {
                     <input type="text" placeholder="Type here" className="input h-11 text-lg placeholder:text-white text-white border-white bg-transparent pl-10 input-bordered input-sm w-[350px] max-w-xs" />
                 </div>
                 <div className='flex justify-between items-center gap-20 text-white'>
-                    <Link>Home</Link>
+                    <Link to='/'>Home</Link>
                     <Link>Destination</Link>
                     <Link>Blog</Link>
                     <Link>Contact</Link>

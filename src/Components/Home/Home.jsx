@@ -29,7 +29,9 @@ const Home = () => {
                 <div className=' col-span-2'>
                     <div className="carousel carousel-center rounded-box space-x-5">
                         <div className="carousel-item border-yellow-400 rounded-xl border-2 relative">
-                            <img src="/travel-guru-resources/images/Rectangle 1.png" alt="Pizza" className='h-82 w-64 rounded-xl opacity-50' />
+                            <Link to='/hotels'>
+                                <img src="/travel-guru-resources/images/Rectangle 1.png" alt="Pizza" className='h-full w-64 rounded-xl opacity-50' />
+                            </Link>
                             <h1 className="text-xl font-bold absolute bottom-5 text-white left-2">COX'S BAZAR</h1>
                         </div>
                         <div className="carousel-item border-yellow-400 rounded-xl border-2 relative">
