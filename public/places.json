@@ -1,0 +1,26 @@
+[
+    {
+        "id": "cox1",
+        "place" : "Cox's Bazar",
+        "image" : "https://i.ibb.co/XCLC9Qf/Rectangle-1.png",
+        "details": "The modern Cox's Bazar derives its name from Captain Hiram Cox (died 1799), an army officer who served in British India. It is one of the fishing ports of Bangladesh. At Cox's Bazar is one of the world's longest natural sea beaches (120 kilometres (75 mi) long including mud flats)."
+    },
+    {
+        "id": "sundarban1",
+        "place" : "Sundarbans",
+        "image" : "https://i.ibb.co/NFCvxsY/mamun-srizon-qay3l-NDSHzc-unsplash.jpg",
+        "details" : "The Sundarbans is of universal importance for globally endangered species including the Royal Bengal Tiger, Ganges and Irawadi dolphins, estuarine crocodiles and the critically endangered endemic river terrapin (Batagur baska). It is the only mangrove habitat in the world for Panthera tigris tigris species."
+    },
+    {
+        "id": "sreemangal1",
+        "place" : "Sreemangal",
+        "image" : "https://i.ibb.co/b6JGP45/saif-mobilephotography-SAUotx-T6-RM8-unsplash.jpg",
+        "details" : "It is said the name Sreemangal (or Srimangal) is named after Sri Das and Mangal Das; two brothers who settled on the banks of the Hail Haor. A copper plate of Raja Marundanath from the 11th century was found in Kalapur. During an excavation at Lamua, an ancient statue of Ananta Narayan was dug out."
+    },
+    {
+        "id": "sajek1",
+        "place" : "Sajek",
+        "image" : "https://i.ibb.co/1M6LTWR/md-anwar-hossain-r2-Dwu-Ijw5-T4-unsplash.jpg",
+        "details" : "Sajek Valley is one of the most popular tourist spots in Bangladesh situated among the hills of the Kasalong range of mountains in Sajek union, Baghaichhari Upazila in Rangamati District. The valley is 2,000 feet (610 m) above sea level. Sajek Valley is known as the Queen of Hills & Roof of Rangamati."
+    }
+]

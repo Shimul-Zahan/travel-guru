@@ -17,13 +17,15 @@ const router = createBrowserRouter([
         children: [
             {
                 path: '/',
-                element: <Home />
+                element: <Home />,
+                loader: ()=> fetch("/places.json")
             },
             {
                 path: '/booking',
                 element: <PrivateRoute>
                             <Booking />
-                        </PrivateRoute>
+                        </PrivateRoute>,
+                loader: () => fetch("/places.json")
             },
             {
                 path: '/login',
@@ -34,7 +36,7 @@ const router = createBrowserRouter([
                 element: <Registration />
             },
             {
-                path: '/hotels',
+                path: '/hotels/booking',
                 element: <PrivateRoute>
                             <Hotels />
                         </PrivateRoute>,
